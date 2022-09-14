@@ -1,0 +1,9 @@
+body {
+  background-color: $body-bg;
+  font-family: $primary-font;
+}
+
+.app {
+  max-width: $body-size;
+  margin: 0 auto;
+}
