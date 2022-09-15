@@ -29,40 +29,38 @@ const NewsLetter = () => {
             cutting
           </p>
         </div>
-        <div className="newsletter-main">
-          <div className="newsletter-container">
-            <div className="newsletter-content">
-              <h2 className="heading heading--medium">
-                Drive 30-40% of your revenue with email marekiting
-              </h2>
-              <p className="text">
-                Unlock customer insights to grow your business faster. Store all
-                your customer data collected from storefront to marketing
-                channels in one central hub far easy use in every strategy.
-              </p>
-              <div className="newsletter-list">
-                {newsLetters?.map((item) => (
-                  <div key={item.id} className="newsletter-item">
-                    <img
-                      srcSet={item.img}
-                      alt={item.title}
-                      className="newsletter-logo"
-                    />
-                    <h4 className="heading heading--normal">{item.title}</h4>
-                    <p className="text">{item.text}</p>
-                    <a href="#!" alt="">
-                      Read More
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="newsletter-image">
-              <img srcSet="/newsletter-img.png 2x" alt="" />
+      </LayoutContainer>
+      <div className="main-container">
+          <div className="newsletter-content">
+            <h2 className="heading heading--medium">
+              Drive 30-40% of your revenue with email marekiting
+            </h2>
+            <p className="text">
+              Unlock customer insights to grow your business faster. Store all
+              your customer data collected from storefront to marketing channels
+              in one central hub far easy use in every strategy.
+            </p>
+            <div className="newsletter-list">
+              {newsLetters?.map((item) => (
+                <div key={item.id} className="newsletter-item">
+                  <img
+                    srcSet={item.img}
+                    alt={item.title}
+                    className="newsletter-logo"
+                  />
+                  <h4 className="heading heading--normal">{item.title}</h4>
+                  <p className="text">{item.text}</p>
+                  <a href="#!" alt="">
+                    Read More
+                  </a>
+                </div>
+              ))}
             </div>
           </div>
+          <div className="newsletter-image main-container-image">
+            <img srcSet="/newsletter-img.png 2x" alt="" />
+          </div>
         </div>
-      </LayoutContainer>
     </section>
   );
 };

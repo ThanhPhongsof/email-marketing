@@ -1,4 +1,5 @@
 .newsletter {
+  margin-bottom: 66px;
   &-header {
     text-align: center;
     margin-bottom: 95px;
@@ -12,21 +13,11 @@
       margin: 0 auto;
     }
   }
-  &-main {
-    padding: 89px 0 72px;
-  }
-  &-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-  }
-  &-image {
-    flex: 1;
-    max-width: 555px;
+  .main-container {
+    justify-content: flex-end;
   }
   &-content {
+    flex: 1;
     max-width: 555px;
     .heading--medium {
       max-width: 378px;

@@ -37,8 +37,13 @@ a {
   border-radius: var(--button-border);
   font-size: 18px;
   padding: 15px 30px;
+  transition: all 0.3s ease;
   &--primary {
     background-color: var(--primary-color);
+  }
+  &:hover {
+    color: var(--gray1e);
+    background-color: var(--primary-yellow);
   }
 }
 
@@ -65,4 +70,15 @@ a {
 
 .text {
   font-size: 18px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 100%;
+  &-image {
+    flex-shrink: 0;
+  }
 }
