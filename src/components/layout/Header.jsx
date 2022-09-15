@@ -4,7 +4,7 @@ import LayoutContainer from "./LayoutContainer";
 
 const Header = () => {
   return (
-    <header id="#header" className="header">
+    <header id="#header" className="header mb-40">
       <LayoutContainer>
         <HeaderTop />
         <HeaderMain />
