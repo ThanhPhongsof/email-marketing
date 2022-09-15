@@ -1,0 +1,40 @@
+.service {
+  &-header {
+    max-width: 448px;
+    margin: 0 auto 58px;
+  }
+  &-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 23px;
+  }
+  &-item {
+    padding: 43px 18px 63px;
+    background-color: transparent;
+    transition: all 0.2s linear;
+    &:hover {
+      background-color: var(--body-bg);
+      box-shadow: 0px 16px 250px 10px rgba(155, 155, 155, 0.25);
+      .service-icon {
+        background-color: var(--primary-color);
+        color: var(--white);
+      }
+    }
+  }
+  &-icon {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 44px;
+    color: var(--gray1e);
+    background-color: rgba(#000, 8%);
+    transition: all 0.2s linear;
+  }
+  .heading {
+    margin-bottom: 13px;
+  }
+}
