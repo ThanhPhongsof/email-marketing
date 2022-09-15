@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0 36px;
+  list-style-type: none;
+  &-link {
+    color: var(--grayb5);
+    &:hover {
+      color: var(--white);
+    }
+  }
+}
