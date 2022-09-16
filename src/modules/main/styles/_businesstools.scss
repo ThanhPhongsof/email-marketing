@@ -1,0 +1,26 @@
+.business {
+  background-color: var(--gray1e);
+  &-main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+  }
+  &-content {
+    width: 100%;
+    max-width: 584px;
+    .heading--big {
+      color: var(--white);
+      margin-bottom: 7px;
+    }
+    .text {
+      color: var(--grayb5);
+      margin-bottom: 40px;
+      max-width: 362px;
+    }
+  }
+  &-image {
+    transform: translateX(10%);
+  }
+}
