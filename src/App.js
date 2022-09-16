@@ -22,7 +22,6 @@ function App() {
           <Service />
           <BusinessTools />
           <TestMonials />
-          <Laibrary />
         </main>
       </Layout>
     </div>
