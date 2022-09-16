@@ -1,0 +1,43 @@
+.testmonials {
+  padding: 140px 0 52px;
+  &-header {
+    text-align: center;
+    margin: 0 auto 76px;
+    max-width: 596px;
+  }
+  &-main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &-image {
+    flex-shrink: 0;
+  }
+  &-content {
+    flex: 1;
+    max-width: 571px;
+  }
+  &-text {
+    font-size: 23px;
+    line-height: calc(40 / 23);
+    margin-bottom: 27px;
+    span {
+      font-style: italic;
+    }
+  }
+  &-author,
+  &-rating {
+    font-size: 17.67px;
+    line-height: calc(22 / 17.67);
+  }
+  &-author {
+    color: var(--gray7d);
+    margin-bottom: 14px;
+  }
+  &-stars {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 8px;
+  }
+}

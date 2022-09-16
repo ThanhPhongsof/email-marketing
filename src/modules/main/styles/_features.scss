@@ -1,0 +1,25 @@
+.features {
+  margin-bottom: 68px;
+  .main-container {
+    justify-content: flex-start;
+  }
+  &-content {
+    flex: 1;
+    max-width: 548px;
+    .heading--medium {
+      margin-bottom: 16px;
+    }
+    .text {
+      max-width: 508px;
+      &--first {
+        margin-bottom: 28px;
+      }
+      &--secondary {
+        margin-bottom: 51px;
+      }
+    }
+    .button {
+      padding: 16px 58px;
+    }
+  }
+}
