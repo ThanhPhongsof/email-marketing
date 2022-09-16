@@ -3,7 +3,6 @@ import {
   BusinessTools,
   CountDown,
   Features,
-  Laibrary,
   NewsLetter,
   Service,
   TestMonials,

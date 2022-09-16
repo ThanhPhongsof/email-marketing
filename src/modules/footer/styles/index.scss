@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--gray1e);
+  color: var(--white);
+  padding: 70px 0 82px;
+  &-top {
+    max-width: 447px;
+    margin: 0 auto;
+    text-align: center;
+    .heading--big {
+      color: inherit;
+      margin-bottom: 15px;
+    }
+    .text {
+      color: var(--grayb5);
+      margin-bottom: 35px;
+    }
+  }
+}
