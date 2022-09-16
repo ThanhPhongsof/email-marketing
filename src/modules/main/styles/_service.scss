@@ -59,3 +59,14 @@
     }
   }
 }
+@media screen and (max-width: 1023px) {
+  .service {
+    &-header {
+      margin-bottom: 35px;
+      max-width: 312px;
+    }
+    &-list {
+      justify-content: flex-start;
+    }
+  }
+}
