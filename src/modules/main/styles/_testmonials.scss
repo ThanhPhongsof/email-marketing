@@ -41,3 +41,32 @@
     margin-bottom: 8px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .testmonials {
+    &-header {
+      text-align: left;
+      margin-bottom: 18px;
+      max-width: 575px;
+    }
+    &-main {
+      flex-direction: column-reverse;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .testmonials {
+    padding: 60px 0;
+    &-header {
+      text-align: left;
+      margin-bottom: 14px;
+      max-width: 325px;
+    }
+    &-main {
+      flex-direction: column-reverse;
+    }
+    &-content {
+      max-width: 318px;
+    }
+  }
+}

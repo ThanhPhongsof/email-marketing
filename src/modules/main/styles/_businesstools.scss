@@ -24,3 +24,41 @@
     transform: translateX(10%);
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .business {
+    padding: 60px 30px;
+    &-main {
+      flex-direction: column;
+    }
+    &-image {
+      transform: none;
+    }
+    &-content {
+      margin-bottom: 60px;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .business {
+    &-content {
+      margin-bottom: 60px;
+      .heading--big {
+        max-width: 255px;
+        margin-bottom: 10px;
+        transform: translateX(10%);
+      }
+      .text {
+        color: var(--grayb5);
+        margin-bottom: 62px;
+        max-width: 286px;
+        transform: translateX(10%);
+      }
+      .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -58,4 +58,54 @@
       justify-content: center;
     }
   }
+  &-toogle {
+    display: none;
+    & * {
+      pointer-events: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    margin-bottom: 60px;
+    &-top {
+      justify-content: flex-start;
+      padding: 25px 0 55px;
+    }
+    &-logo {
+      font-size: 20px;
+    }
+    &-main {
+      max-width: 481px;
+    }
+    &-heading {
+      font-size: 30px;
+      line-height: 1.5;
+      margin-bottom: 33px;
+    }
+    &-login {
+      font-size: 12px;
+      margin-left: auto;
+      margin-right: 40px;
+    }
+    &-button {
+      gap: 0 20px;
+      margin-bottom: 64px;
+    }
+    &-toogle {
+      display: block;
+    }
+    &-works span {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    &-main {
+      max-width: 281px;
+    }
+  }
 }

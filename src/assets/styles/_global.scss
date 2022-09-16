@@ -82,3 +82,36 @@ a {
     flex-shrink: 0;
   }
 }
+
+.overlay {
+  background-color: rgba(#000, 0.5);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: calc(var(--container-ipad) + var(--gap) * 2);
+  }
+  .mb-40 {
+    margin-bottom: 60px;
+  }
+  .heading {
+    &--big {
+      font-size: 30px;
+      line-height: calc(40 / 30);
+    }
+    &--medium {
+      font-size: 24px;
+      line-height: calc(34 / 24);
+    }
+  }
+  .text {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  }
+}

@@ -26,3 +26,22 @@
     color: var(--gray49);
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .countdown {
+    &-list {
+      flex-direction: column;
+    }
+    &-item {
+      gap: 20px 0;
+    }
+    &-title {
+      font-size: 45.43px;
+      line-height: calc(57 / 45.43);
+    }
+    &-text {
+      font-size: 17.67px;
+      line-height: calc(22 / 17.67);
+    }
+  }
+}
