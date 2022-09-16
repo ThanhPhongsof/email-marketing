@@ -57,3 +57,52 @@
     }
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .newsletter {
+    margin-bottom: 60px;
+    &-header {
+      margin-bottom: 60px;
+      .heading--big {
+        max-width: 530px;
+        margin-bottom: 12px;
+      }
+      .text {
+        max-width: 375px;
+      }
+    }
+
+    .main-container {
+      flex-direction: column-reverse;
+      &-image {
+        padding-left: 120px;
+        margin-bottom: 45px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .newsletter {
+    &-header {
+      .heading--big {
+        max-width: 313px;
+        margin-bottom: 0;
+      }
+      .text {
+        max-width: 234px;
+        margin-bottom: 0;
+      }
+    }
+    &-content {
+      padding: 60px 20px;
+    }
+    &-list {
+      flex-direction: column;
+    }
+    .main-container {
+      &-image {
+        padding-left: 60px;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+const IconSideBar = () => {
+  return (
+    <svg
+      width="13"
+      height="12"
+      viewBox="0 0 13 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="13" height="2" fill="#82E263" />
+      <rect y="5" width="13" height="2" fill="#82E263" />
+      <rect y="10" width="13" height="2" fill="#82E263" />
+    </svg>
+  );
+};
+
+export default IconSideBar;

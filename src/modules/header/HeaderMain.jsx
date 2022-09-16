@@ -13,9 +13,9 @@ const HeaderMain = () => {
         </a>
         <a href="#!" className="header-works">
           <span>How it works</span>
-          <span className="header-works-icon">
+          <div className="header-works-icon">
             <IconPlay />
-          </span>
+          </div>
         </a>
       </div>
     </div>

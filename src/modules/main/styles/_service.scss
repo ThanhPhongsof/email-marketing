@@ -38,3 +38,24 @@
     margin-bottom: 13px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .service {
+    &-header {
+      margin-bottom: 35px;
+    }
+    &-list {
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 0 23px;
+    }
+    &-item {
+      padding: 43px 18px;
+    }
+    .text {
+      max-width: 244px;
+      max-height: 75px;
+    }
+  }
+}
